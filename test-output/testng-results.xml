@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[rakchana.selvajamuna]]>
+    </line>
+    <line>
+      <![CDATA[rakchana123]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna]]>
+    </line>
+    <line>
+      <![CDATA[rakchana123]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna]]>
+    </line>
+    <line>
+      <![CDATA[rakchana123]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna]]>
+    </line>
+    <line>
+      <![CDATA[rakchana123]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
+    <line>
+      <![CDATA[Sent time of the mail:4:21 PM (0 minutes ago)]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna]]>
+    </line>
+    <line>
+      <![CDATA[rakchana123]]>
+    </line>
+    <line>
+      <![CDATA[rakchana.selvajamuna@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
+    <line>
+      <![CDATA[Number of unread mails:5]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="252543" started-at="2019-11-05T10:47:54Z" finished-at="2019-11-05T10:52:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="252543" started-at="2019-11-05T10:47:54Z" finished-at="2019-11-05T10:52:06Z">
+      <class name="scripts.TC005_Gmail_Login_NoOfURL_Logout">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.TC005_Gmail_Login_NoOfURL_Logout@50cbc42f]" name="Open_App" is-config="true" duration-ms="7458" started-at="2019-11-05T16:19:05Z" finished-at="2019-11-05T16:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:scripts.TC005_Gmail_Login_NoOfURL_Logout@50cbc42f]" name="test_login" duration-ms="37135" started-at="2019-11-05T16:19:12Z" finished-at="2019-11-05T16:19:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[rakchana.selvajamuna]]>
+            </line>
+            <line>
+              <![CDATA[rakchana123]]>
+            </line>
+            <line>
+              <![CDATA[rakchana.selvajamuna@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="close_App(org.testng.ITestResult)[pri:0, instance:scripts.TC005_Gmail_Login_NoOfURL_Logout@50cbc42f]" name="close_App" is-config="true" duration-ms="1365" started-at="2019-11-05T16:19:49Z" finished-at="2019-11-05T16:19:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TC005_Gmail_Login_NoOfURL_Logout.test_login()[pri:0, instance:scripts.TC005_Gmail_Login_NoOfURL_Logout@50cbc42f] output=rakchana.selvajamuna]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- scripts.TC005_Gmail_Login_NoOfURL_Logout -->
+      <class name="scripts.TC004_Gmail_Login_DraftNum_Logout">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.TC004_Gmail_Login_DraftNum_Logout@13b6d03]" name="Open_App" is-config="true" duration-ms="5825" started-at="2019-11-05T16:21:32Z" finished-at="2019-11-05T16:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:scripts.TC004_Gmail_Login_DraftNum_Logout@13b6d03]" name="test_login" duration-ms="26676" started-at="2019-11-05T16:21:38Z" finished-at="2019-11-05T16:22:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[rakchana.selvajamuna]]>
+            </line>
+            <line>
+              <![CDATA[rakchana123]]>
+            </line>
+            <line>
+              <![CDATA[rakchana.selvajamuna@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+            <line>
+              <![CDATA[Number of unread mails:5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="close_App(org.testng.ITestResult)[pri:0, instance:scripts.TC004_Gmail_Login_DraftNum_Logout@13b6d03]" name="close_App" is-config="true" duration-ms="1292" started-at="2019-11-05T16:22:05Z" finished-at="2019-11-05T16:22:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TC004_Gmail_Login_DraftNum_Logout.test_login()[pri:0, instance:scripts.TC004_Gmail_Login_DraftNum_Logout@13b6d03] output=rakchana.selvajamuna]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- scripts.TC004_Gmail_Login_DraftNum_Logout -->
+      <class name="scripts.TC003_Gmail_Login_Compose_SentTime_Logout">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.TC003_Gmail_Login_Compose_SentTime_Logout@282ba1e]" name="Open_App" is-config="true" duration-ms="5500" started-at="2019-11-05T16:20:23Z" finished-at="2019-11-05T16:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:scripts.TC003_Gmail_Login_Compose_SentTime_Logout@282ba1e]" name="test_login" duration-ms="62131" started-at="2019-11-05T16:20:29Z" finished-at="2019-11-05T16:21:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[rakchana.selvajamuna]]>
+            </line>
+            <line>
+              <![CDATA[rakchana123]]>
+            </line>
+            <line>
+              <![CDATA[rakchana.selvajamuna@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+            <line>
+              <![CDATA[Sent time of the mail:4:21 PM (0 minutes ago)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="close_App(org.testng.ITestResult)[pri:0, instance:scripts.TC003_Gmail_Login_Compose_SentTime_Logout@282ba1e]" name="close_App" is-config="true" duration-ms="1278" started-at="2019-11-05T16:21:31Z" finished-at="2019-11-05T16:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TC003_Gmail_Login_Compose_SentTime_Logout.test_login()[pri:0, instance:scripts.TC003_Gmail_Login_Compose_SentTime_Logout@282ba1e] output=rakchana.selvajamuna]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- scripts.TC003_Gmail_Login_Compose_SentTime_Logout -->
+      <class name="scripts.TC002_Gmail_Login_Compose_Logout">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.TC002_Gmail_Login_Compose_Logout@1c53fd30]" name="Open_App" is-config="true" duration-ms="10096" started-at="2019-11-05T16:17:54Z" finished-at="2019-11-05T16:18:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:scripts.TC002_Gmail_Login_Compose_Logout@1c53fd30]" name="test_login" duration-ms="59289" started-at="2019-11-05T16:18:04Z" finished-at="2019-11-05T16:19:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[rakchana.selvajamuna]]>
+            </line>
+            <line>
+              <![CDATA[rakchana123]]>
+            </line>
+            <line>
+              <![CDATA[rakchana.selvajamuna@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="close_App(org.testng.ITestResult)[pri:0, instance:scripts.TC002_Gmail_Login_Compose_Logout@1c53fd30]" name="close_App" is-config="true" duration-ms="1765" started-at="2019-11-05T16:19:03Z" finished-at="2019-11-05T16:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TC002_Gmail_Login_Compose_Logout.test_login()[pri:0, instance:scripts.TC002_Gmail_Login_Compose_Logout@1c53fd30] output=rakchana.selvajamuna]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- scripts.TC002_Gmail_Login_Compose_Logout -->
+      <class name="scripts.TC001_Gmail_Login_Logout">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.TC001_Gmail_Login_Logout@75412c2f]" name="Open_App" is-config="true" duration-ms="5810" started-at="2019-11-05T16:19:51Z" finished-at="2019-11-05T16:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="test_login()[pri:0, instance:scripts.TC001_Gmail_Login_Logout@75412c2f]" name="test_login" duration-ms="25702" started-at="2019-11-05T16:19:56Z" finished-at="2019-11-05T16:20:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[rakchana.selvajamuna]]>
+            </line>
+            <line>
+              <![CDATA[rakchana123]]>
+            </line>
+            <line>
+              <![CDATA[rakchana.selvajamuna@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method status="PASS" signature="close_App(org.testng.ITestResult)[pri:0, instance:scripts.TC001_Gmail_Login_Logout@75412c2f]" name="close_App" is-config="true" duration-ms="1161" started-at="2019-11-05T16:20:22Z" finished-at="2019-11-05T16:20:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_login status=SUCCESS method=TC001_Gmail_Login_Logout.test_login()[pri:0, instance:scripts.TC001_Gmail_Login_Logout@75412c2f] output=rakchana.selvajamuna]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- scripts.TC001_Gmail_Login_Logout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

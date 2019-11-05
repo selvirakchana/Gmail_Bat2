@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 05 16:17:54 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>252 seconds (252543 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.TC002_Gmail_Login_Compose_Logout.test_login()'><b>test_login</b><br>Test class: scripts.TC002_Gmail_Login_Compose_Logout<br/>
+<a href="#Output-692743054" onClick='toggleBox("Output-692743054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-692743054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-692743054">
+rakchana.selvajamuna<br/>
+rakchana123<br/>
+rakchana.selvajamuna@gmail.com<br/>
+Hello<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>scripts.TC002_Gmail_Login_Compose_Logout@1c53fd30</td></tr>
+<tr>
+<td title='scripts.TC005_Gmail_Login_NoOfURL_Logout.test_login()'><b>test_login</b><br>Test class: scripts.TC005_Gmail_Login_NoOfURL_Logout<br/>
+<a href="#Output-1198197478" onClick='toggleBox("Output-1198197478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1198197478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1198197478">
+rakchana.selvajamuna<br/>
+rakchana123<br/>
+rakchana.selvajamuna@gmail.com<br/>
+Hello<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>scripts.TC005_Gmail_Login_NoOfURL_Logout@50cbc42f</td></tr>
+<tr>
+<td title='scripts.TC001_Gmail_Login_Logout.test_login()'><b>test_login</b><br>Test class: scripts.TC001_Gmail_Login_Logout<br/>
+<a href="#Output-1574615832" onClick='toggleBox("Output-1574615832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574615832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574615832">
+rakchana.selvajamuna<br/>
+rakchana123<br/>
+rakchana.selvajamuna@gmail.com<br/>
+Hello<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>scripts.TC001_Gmail_Login_Logout@75412c2f</td></tr>
+<tr>
+<td title='scripts.TC003_Gmail_Login_Compose_SentTime_Logout.test_login()'><b>test_login</b><br>Test class: scripts.TC003_Gmail_Login_Compose_SentTime_Logout<br/>
+<a href="#Output-417797183" onClick='toggleBox("Output-417797183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417797183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417797183">
+rakchana.selvajamuna<br/>
+rakchana123<br/>
+rakchana.selvajamuna@gmail.com<br/>
+Hello<br/>
+Sent time of the mail:4:21 PM (0 minutes ago)<br/>
+</div>
+</td>
+<td></td>
+<td>62</td>
+<td>scripts.TC003_Gmail_Login_Compose_SentTime_Logout@282ba1e</td></tr>
+<tr>
+<td title='scripts.TC004_Gmail_Login_DraftNum_Logout.test_login()'><b>test_login</b><br>Test class: scripts.TC004_Gmail_Login_DraftNum_Logout<br/>
+<a href="#Output-742672280" onClick='toggleBox("Output-742672280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-742672280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-742672280">
+rakchana.selvajamuna<br/>
+rakchana123<br/>
+rakchana.selvajamuna@gmail.com<br/>
+Hello<br/>
+Number of unread mails:5<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>scripts.TC004_Gmail_Login_DraftNum_Logout@13b6d03</td></tr>
+</table><p>
+</body>
+</html>

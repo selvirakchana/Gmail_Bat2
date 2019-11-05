@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="scripts.TC002_Gmail_Login_Compose_Logout"/>
+      <class name="scripts.TC005_Gmail_Login_NoOfURL_Logout"/>
+      <class name="scripts.TC001_Gmail_Login_Logout"/>
+      <class name="scripts.TC003_Gmail_Login_Compose_SentTime_Logout"/>
+      <class name="scripts.TC004_Gmail_Login_DraftNum_Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
